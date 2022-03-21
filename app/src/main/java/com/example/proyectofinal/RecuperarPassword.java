@@ -161,6 +161,7 @@ public class RecuperarPassword extends AppCompatActivity
     {
         String correo = txtcorreo.getText().toString().trim();
         int id = view.getId();
+        String a;
 
         //EN LA PRIMERA LINEA VALIDAR SI EL CORREO EXISTE EN LA BD
 
