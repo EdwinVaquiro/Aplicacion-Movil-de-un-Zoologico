@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".RecuperarPassword">
+
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="138dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#4AF4F0F0"
+        android:text="Volver "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRestaurar" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#59615E5E"
+        android:text="Recuperación de cuenta"
+        android:textAlignment="center"
+        android:textColor="#F4EEEE"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRecuperar"
+        android:layout_width="227dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#B0423D3D"
+        android:text="Recuperar Contraseña"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCorreoRecuperar" />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#B0423D3D"
+        android:text="VERIFICAR"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtCodigo" />
+
+    <Button
+        android:id="@+id/btnRestaurar"
+        android:layout_width="207dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#B0423D3D"
+        android:text="RESTAURAR"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNuevoPass" />
+
+    <EditText
+        android:id="@+id/edtCorreoRecuperar"
+        android:layout_width="346dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        android:background="#94F6F3F3"
+        android:backgroundTint="#F3EDED"
+        android:ems="10"
+        android:hint="Digite su correo"
+        android:inputType="textEmailSubject"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/edtCodigo"
+        android:layout_width="346dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#94F6F3F3"
+        android:backgroundTint="#F3EDED"
+        android:ems="10"
+        android:hint="Digite el codigo de verificación"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecuperar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/edtNuevoPass"
+        android:layout_width="346dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="10dp"
+        android:background="#94F6F3F3"
+        android:backgroundTint="#F3EDED"
+        android:ems="10"
+        android:hint="Digite su nueva contraseña"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVerificar"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="354dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="15dp"
+        android:background="#B74C4A4A"
+        android:text="Digite el correo registrado"
+        android:textColor="#F3F3F3"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

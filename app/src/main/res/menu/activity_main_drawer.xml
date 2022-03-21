@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicoA"
+            android:icon="@drawable/inicioic"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_zooA"
+            android:icon="@drawable/zooic"
+            android:title="Zoologicos" />
+        <item
+            android:id="@+id/nav_animalesA"
+            android:icon="@drawable/animalic"
+            android:title="Animales" />
+        <item
+            android:id="@+id/nav_ticketsA"
+            android:icon="@drawable/ticketico"
+            android:title="Tickets" />
+    </group>
+</menu>

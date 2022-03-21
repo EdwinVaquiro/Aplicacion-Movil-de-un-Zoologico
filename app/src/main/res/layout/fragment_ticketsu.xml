@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    tools:context=".modulousuario.ticketsu.ticketsUFragment">
+
+    <EditText
+        android:id="@+id/edtDocumento"
+        android:layout_width="304dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="96dp"
+        android:background="#81FBFBFB"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Digite su documento"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerZOO"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="26dp"
+        android:background="#C3DCC9C9"
+        android:entries="@array/SpinnerTicketsA"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtFecha" />
+
+    <EditText
+        android:id="@+id/edtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="29dp"
+        android:background="#B2DDD3D3"
+        android:ems="10"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:text="Digite la fecha"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDocumento" />
+
+    <Button
+        android:id="@+id/btnComprarT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="61dp"
+        android:backgroundTint="#B0423D3D"
+        android:text="Comprar"
+        app:cornerRadius="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerZOO" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_administrador.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_ingresar.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_pruebas.xml" value="0.19010416666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_recuperar_pass.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_registrar.xml" value="0.33" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/app_bar_activity_administrador.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/app_bar_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/content_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_animalesa.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_animalesu.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_inicioa.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_iniciou.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_ticketsu.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_zooa.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_zoou.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/nav_header_activity_administrador.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/nav_header_usuario.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Downloads/ProyectofinalV3/Proyectofinal/app/src/main/res/layout/activity_ingresar.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Downloads/ProyectofinalV3/Proyectofinal/app/src/main/res/layout/activity_recuperar_pass.xml" value="0.25" />
+        <entry key="..\:/edwin/Downloads/ProyectofinalV3/Proyectofinal/app/src/main/res/layout/activity_recuperar_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Downloads/ProyectofinalV3/Proyectofinal/app/src/main/res/layout/activity_registrar.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
