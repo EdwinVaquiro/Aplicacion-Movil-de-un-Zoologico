@@ -52,6 +52,7 @@ private EditText edtCorreo,edtContraseña;
     private void onCLick(View v)
     {
         int id=v.getId();
+        int a;
         if(id==R.id.btnIngresarU)
         {
             //validación para ver si los campos de correo o el password está vacío
