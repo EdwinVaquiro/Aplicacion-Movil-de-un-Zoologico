@@ -47,6 +47,7 @@ public class RecuperarPassword extends AppCompatActivity
     private TextView txt;
     private static int i;
     private static int Contador=0;
+    private static  String id;
     RequestQueue requestQueue;
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -94,19 +95,69 @@ public class RecuperarPassword extends AppCompatActivity
     private void Recuperacion(View view)
     {
         //LOGICA DE LA BASE DE DATOS PARA HACER EL UPDATE A LA CONTRASEÑA DEL USUARIO
-        String password = txtPass.getText().toString();
-        if(password.isEmpty())
+        String Nuevapassword = txtPass.getText().toString();
+        if(Nuevapassword.isEmpty())
         {
             Toast.makeText(this,"El campo no puede estar vacío",Toast.LENGTH_SHORT).show();
         }else
         {
             //objeto CRUD QUE HACE EL UPDATE EN LA TABLA DE USUARIO LA CONTRASEÑA
 
+            cambiarContraseña(Nuevapassword);
 
 
             Toast.makeText(this,"Restauración de su cuenta completada",Toast.LENGTH_SHORT).show();
             Accion(view);
         }
+    }
+
+    private void cambiarContraseña(String nuevapassword)
+    {
+        // aqui se pone el link de la base de datos de la nube
+        StringRequest request = new StringRequest(Request.Method.POST, "https://compbdzoo.000webhostapp.com/EditarUsuario.php",
+                new Response.Listener<String>()
+                {
+                    @Override
+                    public void onResponse(String response)
+                    {
+
+                        if(response.equalsIgnoreCase("Cambio de contraseña éxitoso"))
+                        {
+                            Toast.makeText(RecuperarPassword.this, "El cambio de contraseña no fue exitoso, vuelva a intentar", Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+                            Toast.makeText(RecuperarPassword.this, "Cambio de contraseña éxitoso", Toast.LENGTH_SHORT).show();
+                            Intent intent1 = new Intent(RecuperarPassword.this,ActivityIngresar.class);
+                            startActivity(intent1);
+                        }
+
+                    }
+                }, new Response.ErrorListener()
+        {
+            @Override
+            public void onErrorResponse(VolleyError error)
+            {
+                Toast.makeText(RecuperarPassword.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
+
+        ){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError
+            {
+                //con map se envian los parametros por el link con el methodo post
+                Map<String,String> params = new HashMap<String,String>();
+                params.put("id", id);
+                params.put("password", nuevapassword);
+                return params;
+            }
+        };
+
+        //ejecutando la direccion ip dirigida a la base de datos
+        RequestQueue requestQueue = Volley.newRequestQueue(RecuperarPassword.this);
+        requestQueue.add(request);
+
     }
 
     //accion de regresar
@@ -190,6 +241,7 @@ public class RecuperarPassword extends AppCompatActivity
                         try
                         {
                             String tel = response.getString("Tel");
+                            id = response.getString("id_usuario");
                             try {
                                 //generando codigo de 6 digitos para recuperar contraseña
                                 Random num = new Random();
@@ -216,7 +268,7 @@ public class RecuperarPassword extends AppCompatActivity
                                 txtcorreo.setVisibility(View.GONE);
                                 btnRecuperar.setVisibility(View.GONE);
                                 txt.setText("");
-                                txt.setText("Por favor digite el código de verificación que recibió al tel.");
+                                txt.setText("Por favor digite el código de verificación que recibió al tel." + i);
 
                             } catch (Exception or)
                             {

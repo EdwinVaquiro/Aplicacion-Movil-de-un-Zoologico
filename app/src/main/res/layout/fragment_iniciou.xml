@@ -5,4 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo5"
-    tools:context=".modulousuario.iniciou."/>
+    tools:context=".modulousuario.iniciou.">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="96dp"
+        android:text="BIENVENIDO"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

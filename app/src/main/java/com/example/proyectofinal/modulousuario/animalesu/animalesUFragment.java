@@ -12,7 +12,8 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.proyectofinal.databinding.FragmentAnimalesuBinding;
 
-public class animalesUFragment extends Fragment {
+public class animalesUFragment extends Fragment
+{
 
     private FragmentAnimalesuBinding binding;
 

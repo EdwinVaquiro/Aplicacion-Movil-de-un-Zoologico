@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_admin.xml" value="0.33" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_administrador.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_ingresar.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
@@ -16,7 +17,7 @@
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_animalesa.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_animalesu.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_inicioa.xml" value="0.20416666666666666" />
-        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_iniciou.xml" value="0.20416666666666666" />
+        <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_iniciou.xml" value="0.33" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_ticketsu.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_zooa.xml" value="0.20416666666666666" />
         <entry key="..\:/edwin/Deskop/ProyectofinalV4/Proyectofinal/app/src/main/res/layout/fragment_zoou.xml" value="0.20416666666666666" />

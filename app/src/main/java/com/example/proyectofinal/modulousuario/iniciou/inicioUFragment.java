@@ -11,12 +11,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.proyectofinal.databinding.FragmentInicioaBinding;
 
-public class inicioUFragment extends Fragment {
+public class inicioUFragment extends Fragment
+{
 
     private FragmentInicioaBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+                             ViewGroup container, Bundle savedInstanceState)
+    {
         InicioUViewModel inicioAViewModel =
                 new ViewModelProvider(this).get(InicioUViewModel.class);
 

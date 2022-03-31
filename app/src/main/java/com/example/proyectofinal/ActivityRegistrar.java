@@ -173,7 +173,6 @@ public static List<CRUDusuario> lista = new List<CRUDusuario>() {
     btnRegistrar.setOnClickListener(this::onClick);
     btnVolver.setOnClickListener(this::onClick);
 
-    ListaUsuarios();
 
     }
 
@@ -349,7 +348,4 @@ public static List<CRUDusuario> lista = new List<CRUDusuario>() {
             }
        return estado;
     }
-
-
-
 }

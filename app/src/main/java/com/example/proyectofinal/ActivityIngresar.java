@@ -18,6 +18,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.proyectofinal.Modelo.CRUDusuario;
+import com.example.proyectofinal.modulousuario.iniciou.InicioUViewModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -151,7 +152,7 @@ private EditText edtCorreo,edtContraseña;
                                         Toast.makeText(ActivityIngresar.this,"Usted ha ingresado con éxito, BIENVENIDO", Toast.LENGTH_SHORT).show();
 
                                         //AQUI VA LA REDIRECCION AL FORMULARIO PRINCIPAL QUE VAN A VER LOS USUARIOS CUANDO EL LOGIN SEA EXITOSO
-                                        Intent io = new Intent(ActivityIngresar.this,pruebas.class);
+                                        Intent io = new Intent(ActivityIngresar.this, InicioUsuario.class);
                                         startActivity(io);
                                     }else
                                     {

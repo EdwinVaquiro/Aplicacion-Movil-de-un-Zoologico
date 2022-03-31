@@ -22,13 +22,14 @@ public class ActivityAdministrador extends AppCompatActivity {
     private ActivityAdministradorBinding binding;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
 
         binding = ActivityAdministradorBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        setSupportActionBar(binding.appBarActivityAdministrador.toolbar);
+        //setSupportActionBar(binding.appBarActivityAdministrador.toolbar);
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         // Passing each menu ID as a set of Ids because each

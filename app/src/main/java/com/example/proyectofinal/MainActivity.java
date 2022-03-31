@@ -32,11 +32,13 @@ public class MainActivity extends AppCompatActivity {
     if(id==R.id.btnReg){
         Intent intent= new Intent(this,ActivityRegistrar.class);
         startActivity(intent);
-    }else if(id==R.id.btnIngresar){
+    }else if(id==R.id.btnIngresar)
+    {
         Intent intent= new Intent(this,ActivityIngresar.class);
         startActivity(intent);
-    }else if(id==R.id.btnAdmin){
-        Intent intent= new Intent(this,pruebas.class);
+    }else if(id==R.id.btnAdmin)
+    {
+        Intent intent= new Intent(this,ActivityAdmin.class);
         startActivity(intent);
         }
 
